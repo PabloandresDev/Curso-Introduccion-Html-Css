@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    Aqui vamos a empezar a escribir nuestro codigo
+    <form action="../Forms-Tables/resultados.html" method="get">
+        <div>
+            <label for="nombreusuario">Nombre de usuario </label>
+            <input type="text" name="user" id="nombreusuario" required>
+        </div>
+        <div>
+            <label for="contrasena">Contraseña </label> 
+            <input type="password" name="password" id="contrasena" required>  
+        </div>
+        <div>
+            <label for="edad">Edad </label> 
+            <input type="number" name="edad" id="edad" required min="18" max="120">  
+        </div>
+        <div>
+            <label for="nacimiento">Nacimiento </label> 
+            <input type="date" name="nacimiento" id="nacimiento" required min="18" max="120">  
+        </div>
+        <div>
+            <label for="comentarios">Comentarios</label> <br>
+            <textarea rows="" cols=""></textarea>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="2"></textarea>
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
